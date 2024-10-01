@@ -185,10 +185,6 @@ body {
     opacity: 1;
 }
 
-.ps_masktrans {
-
-}
-
 /* TILES */
 .nuitilegrid {
     width: 100% !important;
@@ -211,10 +207,6 @@ body {
 
 .nuitile:hover {
     transform: translateY(-2px);
-}
-
-.nuitile .ps_grid-cell {
-
 }
 
 .nuitile .nuilp {
@@ -366,22 +358,13 @@ body {
 
 /* SIDEBAR */
 .raspberry-content #PT_HEADER {
-    width: 280px;
-    position: fixed;
+    width: 100%;
+    display: flex;
 }
 
 .raspberry-content #PT_HEADER .ps_actions_cont .ps_system_cont .psc_header-all .ps_box-group,
 .raspberry-content #PT_HEADER .ps_actions_cont .ps_system_cont .psc_header-all .ps_box-group .ps-button {
     width: 40px !important;
-}
-
-.raspberry-content #PT_HEADER .ps_pagetitle_cont .ps_system_cont {
-    position: fixed;
-    top: 0;
-    left: 125px;
-    right: auto;
-    height: 50px;
-    opacity: 0.5;
 }
 
 #PT_PAGETITLE {
